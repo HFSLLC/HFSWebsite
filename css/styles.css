@@ -2,32 +2,33 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Myriad Pro', sans-serif;
-  font-size: 200%;
+  font-size: 150%;
   color: #40514E;
 }
 
 h1 {
   font-size: 5.62rem;
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-family: 'Myriad Pro', sans-serif;
-  color: #003460;
+  color: #29A9E1;
+  background-color: #003460;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Myriad Pro', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #29A9E1;
   font-weight: normal;
   padding-bottom:  10px;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #29A9E1;
 }
 
 p {
-  line-height: 2;
+  line-height: normal;
 }
 
 hr {
@@ -38,7 +39,7 @@ hr {
 }
 
 a {
-  color: #11999E;
+  color: #29A9E1;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -51,6 +52,7 @@ a:hover {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
+  margin: 0 0 0 0;
 }
 
 .middle-container {
@@ -60,12 +62,13 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #003460;
+  color: #29A9E1;
   padding: 50px 0 20px;
 }
 
 .skill-row {
-  width: 50%;
+  width: 65%;
   margin: 100px auto 100px auto;
   text-align: left;
 
@@ -113,10 +116,6 @@ a:hover {
   border-radius: 50%;
 }
 
-.faceplanet-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .bigbanner-img {
   max-width: 100%;
@@ -126,7 +125,7 @@ a:hover {
 
 
 .code-img {
-  width: 25%;
+  width: 15%;
   border-radius: 50%;
   float: left;
   margin-right: 30px;
@@ -134,7 +133,7 @@ a:hover {
 
 
 .chilli-img {
-  width: 25%;
+  width: 15%;
   float: right;
   margin-left: 30px;
 }
