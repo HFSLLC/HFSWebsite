@@ -118,7 +118,7 @@ a:hover {
 
 
 .bigbanner-img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   margin-left: 60px
 }
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .logo-img {
-  max-width: 20%;
+  max-width: 15%;
   max-height: auto;
 }
 
