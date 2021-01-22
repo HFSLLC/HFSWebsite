@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 5.62rem;
+  font-size: 4rem;
   margin: 0 auto 0 auto;
   font-family: 'Myriad Pro', sans-serif;
   color: #29A9E1;
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .middle-container {
- margin: 100px 0;
+ margin: 50px 0;
 
 
 }
@@ -139,8 +139,15 @@ a:hover {
 }
 
 .logo-img {
-  max-width: 7%;
-  max-height: 7%;
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  color: #29A9E1 !important;
+  font-family: 'Myriad Pro', sans-serif;
+  font-weight: Bold;
 }
 
 
