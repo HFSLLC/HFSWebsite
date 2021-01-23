@@ -34,10 +34,10 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #000000 6px;
   border-bottom: none;
   width: 4%;
-  margin:  100px auto;
+  margin:  25px auto;
 }
 
 a {
