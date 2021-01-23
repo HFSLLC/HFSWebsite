@@ -19,7 +19,7 @@ h2 {
   font-size: 2.5rem;
   color: #29A9E1;
   font-weight: normal;
-  padding-bottom:  10px;
+  /* padding-bottom:  10px; */
 }
 
 h3 {
@@ -28,7 +28,9 @@ h3 {
 }
 
 p {
+  font-family: 'Myriad Pro', sans-serif;
   line-height: normal;
+  font-size: 1.25rem;
 }
 
 hr {
@@ -47,6 +49,10 @@ a {
 
 a:hover {
   color: #EAF6F6;
+}
+
+.navbar a {
+  color: yellow;
 }
 
 .top-container {
@@ -69,7 +75,7 @@ a:hover {
 
 .skill-row {
   width: 65%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
 
 }
@@ -124,7 +130,7 @@ a:hover {
 
 
 .code-img {
-  width: 15%;
+  width: 10%;
   border-radius: 50%;
   float: left;
   margin-right: 30px;
@@ -132,7 +138,7 @@ a:hover {
 
 
 .chilli-img {
-  width: 15%;
+  width: 10%;
   float: right;
   margin-left: 30px;
 }
@@ -141,13 +147,20 @@ a:hover {
 
 .slogan {
   font-size: 5.5rem;
-  color: #29A9E1 !important;
+  color: #29A9E1;
   font-family: 'Myriad Pro', sans-serif;
   font-weight: Bold;
   margin-bottom: 10px;
 
 
 }
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
 
 
 .btn {
