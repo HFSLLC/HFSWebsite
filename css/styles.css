@@ -143,6 +143,17 @@ a:hover {
   margin-left: 30px;
 }
 
+.icon-left {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.icon-right {
+  width: 10%;
+  float: right;
+  margin-left: 30px;
+}
 
 
 .slogan {
